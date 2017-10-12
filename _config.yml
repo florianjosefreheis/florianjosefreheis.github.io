@@ -1,6 +1,6 @@
 # main text of home
 name: Florian Josef Reheis
-bio: Business Controller turned software engineer. Entrepreneur, Ruby on Rails Developer & Digital Marketer
+bio: Business Controller turned software engineer. Tech Geek, Ruby on Rails Developer & Digital Marketer
 
 # twitter summary info
 description: A blog about technology and other amazing stuff
@@ -54,7 +54,7 @@ email: florianjosefreheis@gmail.com
 authors:
   flo:
     name: Florian Josef Reheis
-    bio: Business Controller turned software engineer. Entrepreneur, Ruby on Rails Developer & Digital Marketer
+    bio: Business Controller turned software engineer. Tech Geek, Ruby on Rails Developer & Digital Marketer
     external-image: false
     picture: assets/images/profile.jpg
     twitter: iLSchuss
