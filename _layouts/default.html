@@ -9,9 +9,11 @@ layout: compress
     <meta charset="utf-8">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
 
     <meta name=description content="{{ site.bio }}">
     <meta name=author content="{{ site.name }}">
+    <meta name="keywords" content="Senior Developer, Software Engineer, Ruby Developer, Ruby on Rails Developer, Javascript Developer">
 
     {% seo %}
 
@@ -19,7 +21,7 @@ layout: compress
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
-    
+
     <style>
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
     {{ scss_sheet | scssify }}
