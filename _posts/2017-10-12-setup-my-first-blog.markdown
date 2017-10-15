@@ -1,12 +1,12 @@
 ---
-title: "Setup my first blog - Github Pages and CloudFlare"
+title: "Setup of my first blog - Github Pages and CloudFlare"
 layout: post
 date: 2017-10-12 20:30
 image:
 headerImage: false
 tag:
 - cloudflare
-- githubpages
+- github pages
 - blog setup
 category: blog
 author: flo
