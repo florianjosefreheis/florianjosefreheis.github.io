@@ -49,6 +49,7 @@ github: florianjosefreheis
 # reddit: username
 # medium: medium
 # vimeo: myvimeo
+# lanyrd: mylanyrd
 email: florianjosefreheis@gmail.com
 
 authors:
@@ -93,9 +94,10 @@ show-author: true
 # do you want some animations?
 animation: true
 
-gems:
-  - jekyll-seo-tag
+plugins_dir:
   - jekyll-gist
+  - jekyll-seo
+  - jekyll-seo-tag
   - jekyll-feed
   - jemoji
 
