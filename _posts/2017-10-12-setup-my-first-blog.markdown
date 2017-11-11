@@ -10,10 +10,11 @@ tag:
 - blog setup
 category: blog
 author: flo
-description: Setup of my first blog - Github Pages and CloudFlare
+description: Setup process of my first blog by explaining the main tools/services Github Pages and CloudFlare.
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 ---
+
 ## Setup of my first blog - Github Pages and CloudFlare
 
 As you might have recognized already, this website/blog is using a Jekyll template and is based on **github.pages.io**. The advantages of using Jekyll are:
