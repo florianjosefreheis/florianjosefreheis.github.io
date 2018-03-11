@@ -103,4 +103,12 @@ plugins_dir:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://github.com
+  base_url: https://github.com
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+    Content-Security-Policy: default-src 'https'
+    X-Content-Type-Options: nosniff
+    X-Frame-Options: DENY
+    X-XSS-Protection: 1; mode=block
