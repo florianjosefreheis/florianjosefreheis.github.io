@@ -12,8 +12,8 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: /assets/FlorianJosefReheis.pdf
 
 url: https://www.florianjosefreheis.com
@@ -104,11 +104,3 @@ plugins_dir:
 
 jekyll-mentions:
   base_url: https://github.com
-
-webrick:
-  headers:
-    Access-Control-Allow-Origin: "*"
-    Content-Security-Policy: default-src 'https'
-    X-Content-Type-Options: nosniff
-    X-Frame-Options: DENY
-    X-XSS-Protection: 1; mode=block

@@ -4,7 +4,6 @@
 -   Open it in your browser: [http://localhost:4000](http://localhost:4000)
 -   Test your app with `bundle exec htmlproofer ./_site`
 
-
 ## Template
 
 The template for this blog can be find [here](https://github.com/sergiokopplin/indigo).
