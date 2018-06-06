@@ -19,7 +19,7 @@ resume-url: /assets/FlorianJosefReheis.pdf
 url: https://www.florianjosefreheis.com
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+permalink: /:categories/:title/
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-70987891-2'
