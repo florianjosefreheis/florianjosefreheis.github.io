@@ -25,6 +25,7 @@ In about three weeks I've learnt the difference between Lists, Tuples, and Dicti
 3. Python is a very **powerful language** (easy to learn, user-friendly, widely used, runs on (almost) any platform) that paves the way for new, exciting directions to explorer, especially via  all the scientific libraries.
 
 One important part I was missing in the course was how you actually debug or trace a error. After looking around on Google and StackOverflow I found a very useful debugging tool called Python debugger **pdb**. This debugger is  equivalent to Ruby's **byebug** and easy to use.
+
 It is essential to learn how to debug/trace errors right at the beginning when diving into a new programming language. It helps to understand what is going on, how the nature of the language works, and will make your life way easier to understand the bigger picture.
 
 Run a python script from the command line by using the Python debugger:
