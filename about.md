@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Tech Geek, Ruby on Rails developer and Hackathon enthusiast.
+<p>Ruby on Rails developer and Hackathon enthusiast.
 I'm a Business Controller turned Developer, combining my financial experience with my passion for Software Engineering, Entrepreneurship and Digital Marketing.
 <br>
 <br>
