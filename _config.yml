@@ -94,6 +94,8 @@ show-author: true
 # do you want some animations?
 animation: true
 
+freelance: true
+
 plugins_dir:
   - jekyll-gist
   - jekyll-seo
