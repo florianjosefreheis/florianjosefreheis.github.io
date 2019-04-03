@@ -37,5 +37,5 @@ I would love to hear your feedback. In case you want to contribute to any of the
 #### Additional Resources
 
 -   [Website - 30 Seconds of Ruby](https://www.florianjosefreheis.com/30-seconds-of-ruby/)
--   [Github - 30 Seconds of Ruby](https://github.com/30-seconds)
+-   [Github - 30 Seconds of Ruby](https://github.com/florianjosefreheis/30-seconds-of-ruby)
 -   [Github - 30 Seconds of Knowledge](https://www.producthunt.com/posts/30-seconds-of-knowledge)
