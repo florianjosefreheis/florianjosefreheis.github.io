@@ -4,7 +4,7 @@
 
 -   Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
 -   Open it in your browser: [http://localhost:4000](http://localhost:4000)
--   Test your app with `bundle exec htmlproofer ./_site`
+-   Test your app with `bundle exec htmlproofer ./_site --http-status-ignore "999"`
 
 ## Template
 
