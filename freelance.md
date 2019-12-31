@@ -3,20 +3,21 @@ title: Freelance
 layout: page
 ---
 
-<h1>Need a website or blog?</h1>
+<h1>Startin a business?</h1>
 <p>
-Simple, responsive, one-page sites for various purposes, whether it's a personal profile, a landing page with a MailChimp signup form or Stripe checkout.</p>
+ Proof of concept (POC) and Minimum Valuable Product (MVP) development.
+</p>
 
 <u>Work includes:<u>
 <ul>
-  <li>Creating website</li>
-  <li>Setting up custom domain</li>
-  <li>No need for your own hosting server</li>
+  <li>MVP softare development</li>
+  <li>NoCode consuliting</li>
+  <li>Financial Controlling</li>
+  <li>Business Plan creation</li>
 </ul>
 
-<p>
-
 <h4>Questions?</h4>
+
 <p>
-Get in contact via email <a class="link" href="mailto:{{ site.email }}">florianjosefreheis@gmail.com</a>.
+  Get in contact via email <a class="link" href="mailto:{{ site.email }}">florianjosefreheis@gmail.com</a>.
 </p>
