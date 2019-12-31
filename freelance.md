@@ -3,7 +3,7 @@ title: Freelance
 layout: page
 ---
 
-<h1>Startin a business?</h1>
+<h1>Starting a business?</h1>
 <p>
  Proof of concept (POC) and Minimum Valuable Product (MVP) development.
 </p>
