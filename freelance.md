@@ -11,12 +11,12 @@ layout: page
 <u>Work includes:<u>
 <ul>
   <li>MVP softare development</li>
-  <li>NoCode consuliting</li>
+  <li>NoCode consulting</li>
   <li>Financial Controlling</li>
   <li>Business Plan creation</li>
 </ul>
 
-<h4>Questions?</h4>
+<h4>Get in contact</h4>
 
 <p>
   Get in contact via email <a class="link" href="mailto:{{ site.email }}">florianjosefreheis@gmail.com</a>.
