@@ -14,11 +14,14 @@ layout: compress
     <meta name=description content="{{ site.bio }}">
     <meta name=author content="{{ site.name }}">
     <meta name="keywords" content="Senior Developer, Software Engineer, Ruby Developer, Ruby on Rails Developer, Javascript Developer">
+    <meta name="theme-color" content="#ffffff"/>
 
     {% include favicon.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}" />
+
+    <title>{{site.name}}</title>
 
     <style>
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
