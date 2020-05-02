@@ -3,7 +3,6 @@ title: "The advantage of in-house support"
 layout: post
 date: 2020-05-02 21:00
 headerImage: false
-projects: true
 tag:
     - engineering team
     - support
