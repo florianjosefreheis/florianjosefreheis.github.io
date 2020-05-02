@@ -5,14 +5,14 @@ date: 2019-12-31 22:00
 headerImage: false
 projects: true
 tag:
-- ruby
-- open source
-- projects
-- vscode extension
+    - open source
+    - projects
+    - vscode extension
 category: blog
 author: flo
 description: VSCode Open My Calandar extension
 ---
+
 ---
 
 ## Open My Calandar
