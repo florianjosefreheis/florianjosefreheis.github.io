@@ -5,10 +5,18 @@ title: Projects
 <section class="list">
     {% for post in site.posts %}
         {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
+            <div class="item {% if post.star %}star{% endif %}" role="project-itme">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                  <div style="display: inline-block; width: 50%; vertical-align: top;">
                     <h3 class="title">{{ post.title }}</h3>
+                    <p style="margin:0"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></p>
+                    <p style="margin:0">{{ post.description }}</p>
+                  </div>
+                  <div style="display: inline-block; width: 49%">
+                    <img class="selfie"
+                      src="{{post.image}}"
+                      alt="{{ site.authors[page.author].name }}" alt="author selfie">
+                  </div>
                 </a>
             </div>
         {% endif %}

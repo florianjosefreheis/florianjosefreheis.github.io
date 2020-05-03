@@ -2,7 +2,7 @@
 title: "Open My Calandar"
 layout: post
 date: 2019-12-31 22:00
-headerImage: false
+image: /assets/images/open_my_calendar/open-my-calendar.png
 projects: true
 tag:
     - open source
@@ -17,7 +17,7 @@ description: VSCode Open My Calandar extension
 
 ## Open My Calandar
 
-Open My Calendar is a VSCode extension that allows users to open pre-defined calendar from the command palette without leaving VSCode.
+Open My Calendar is a VSCode extension that allows users to open pre-defined calendars from the command palette without leaving VSCode.
 
 ![Multi-step sample](/assets/images/open_my_calendar/open-my-calendar.gif)
 
