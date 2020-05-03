@@ -45,7 +45,7 @@ Having worked both in a corporate support team and being on a support rota in a 
 
 -   **Knowledgebase** - Document everything: internal process, how to operate the support platform, internal contact numbers/channel in case of a major incident. Writing a knowledge article should become a habit, especially when being on support.
 
--   **Leverage existing tooling\_**- There is no need to reinvent the wheel. The market provides excellent solutions which provide a ticket system, live chat and customer faced help guidelines out of the box.
+-   **Leverage existing tooling** - There is no need to reinvent the wheel. The market provides excellent solutions which provide a ticket system, live chat and customer faced help guidelines out of the box.
 
 -   **Internal support structure** - Internal process needs to align with the current product state to guaranties a skeleton that holds up or provides a sounds foundation. Access to staging or production instances should not differ. Internal guidelines, protocols and automated escalation hierarchies in case of a major incident need to be in place. The interconnection of all parts of the system together can easily be achieved by automating workflows, providing self-service features to the customer as well as being up to date in terms of security, system resilience and UX.
 

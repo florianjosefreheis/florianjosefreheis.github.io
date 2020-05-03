@@ -2,16 +2,17 @@
 title: "30 Seconds of Ruby"
 layout: post
 date: 2019-04-03 20:20
-headerImage: false
+image: /assets/images/30_seconds_of_ruby/30_seconds_of_ruby.png
 projects: true
 tag:
-- ruby
-- open source
-- projects
+    - ruby
+    - open source
+    - projects
 category: blog
 author: flo
-description: 30 Seconds of Ruby
+description: Ruby snippets you can understand in 30 seconds or less.
 ---
+
 ---
 
 ## 30 Seconds of Ruby
