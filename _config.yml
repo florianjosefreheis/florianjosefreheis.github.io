@@ -1,6 +1,6 @@
 # main text of home
 name: Florian Josef Reheis
-bio: Business Controller turned Software Engineer with 3+ years of Business Controlling, 3+ years of Software Engineering and 2+ years of Digital Marketing experience
+bio: Business Controller turned Software Engineer with 4+ years of Software Engineering, 3+ years of Business Controlling and 2+ years of Digital Marketing experience
 
 # twitter summary info
 description: A blog about technology and other amazing stuff
@@ -22,7 +22,7 @@ url: https://www.florianjosefreheis.com
 permalink: /:categories/:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-70987891-2'
+analytics-google: "UA-70987891-2"
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -55,7 +55,7 @@ email: florianjosefreheis@gmail.com
 authors:
   flo:
     name: Florian Josef Reheis
-    bio: Business Controller turned Developer. Ruby on Rails Developer & Digital Marketer
+    bio: Business Controller turned Developer. Software Engineer & Digital Marketer
     external-image: false
     picture: assets/images/profile.jpg
     twitter: iLSchuss

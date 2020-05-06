@@ -51,7 +51,7 @@ Having worked both in a corporate support team and being on a support rota in a 
 
 -   **Define key metrics** - Service level agreements (SLA) define, e.g., average response time, as well as remedies or penalties, should agreed-on service levels not be achieved. It is a critical component of any SASS vendor contract these days. KPI's that track the median first response time, the median time to solve a ticket or conversation rating/feedback contribute to fulfilling the SLAs.
 
--   **Remove the imbalance of being on support** - Support means to react. An organization can be proactive by providing some of the above points. Nobody knows when and what kind of inquire or incident gets reported or an outage occurs. Follow the sun model not only increases responsiveness and reducing delays, but it also interrupts less free time or family life. Gamification can keep the low-pressure recognize the support engineer that solves the most tickets, or some voucher for the top leaderboard.
+-   **Remove the imbalance of being on support** - Support means to react. An organization can be proactive by providing some of the above points. Nobody knows when and what kind of inquire or incident gets reported or an outage occurs. Follow the sun model not only increases responsiveness and reducing delays, but it also interrupts less free time or family life. Gamification can be used to keep the pressure and stress levels low. Acknowledgment of the support engineer that solves the most tickets or response the fastest with either a voucher or a friendly team treat. In case of weekend or holiday support duty, think about monetary compensation or issue an annual leave day in lieu.
 
 ### The right mix
 
