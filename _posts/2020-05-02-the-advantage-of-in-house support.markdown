@@ -57,6 +57,6 @@ Having worked both in a corporate support team and being on a support rota in a 
 
 Organizations need to find, define, and align their support with their own company culture to enable the best support experience. The tone as well the channels of communication affect the first impression. Embrace every support ticket as an opportunity to understand your customer better.
 
-Short turnarounds for fixing small bugs or implementing small feature requests or new insights into the feedback loop can strengthen the customer relationship. Transparency support helps employees get ahead of knowing when they'll be on support duty so that they can also plan work and free-time activities accordingly. Support should not represent job titles—a combination of client-facing teams and technical teams with clearly defined responsibilities.
+Short turnarounds for fixing small bugs, implementing small feature requests, or gaining new insights into the feedback loop can strengthen the customer relationship. A transparent, well-planned support rota helps employees get ahead of knowing when they'll be on support duty so that they can also plan work and free-time activities accordingly. Support should not only represent certain job-titles but also a combination of client-facing and technical teams with clearly defined responsibilities increased the support experience for both sides, the customer as well the employees involved.
 
 In the end, support is not only the engineering team's responsibility. **It's a mindset**.
