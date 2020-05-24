@@ -2,8 +2,27 @@
 layout: page
 title: Tags
 ---
+<hr>
+<div class="tag-menu">
+  <button class="collapsible" id="tag-cloud-list">Tags Cloud</button>
+  <button class="collapsible" id="tags-list">Tags</button>
+  <button class="collapsible" id="tags-list-blog-ref">Tags and blog posts</button>
+</div>
+<hr>
 
-<section class="list">
+<section class="tag-cloud-list" id="tag-cloud-list-data">
+  <ul class="tag-cloud">
+    {% for tag in site.tags %}
+      <li style="font-size: {{ tag | last | size | times: 1000 | divided_by: site.tags.size | plus: 80  }}%">
+        <a href="#{{ tag | first | slugize | replace: ' ', '-' | replace: '.', '' }}">
+          {{ tag | first }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="list" id="tags-list-data">
   <h1 class="title">Tags</h1>
 
   {% assign tags_list = site.tags | sort %}
@@ -21,9 +40,7 @@ title: Tags
   {% assign tags_list = nil %}
 </section>
 
-<hr>
-
-<section class="tag-list">
+<section class="tag-list" id="tags-list-blog-ref-data">
   {% assign tags_list = site.tags  | sort %}
   {% for tag in tags_list %}
     <h2 class="title" id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h2>
@@ -51,3 +68,22 @@ title: Tags
     <div class="breaker"></div>
   {% endfor %}
 </section>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = document.getElementById(this.id + "-data");
+      if (content.style.display === "block" || content.style.display === "") {
+        content.style.display = "none";
+        if (content.id === "tags-list-data") {
+          content.style.border = "none"
+        }
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
