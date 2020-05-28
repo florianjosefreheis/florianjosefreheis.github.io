@@ -11,6 +11,8 @@ title: Tags
 <hr>
 
 <section class="tag-cloud-list" id="tag-cloud-list-data">
+  <h2 class="title">Tags Cloud</h2>
+
   <ul class="tag-cloud">
     {% for tag in site.tags %}
       <li style="font-size: {{ tag | last | size | times: 1000 | divided_by: site.tags.size | plus: 80  }}%">
@@ -23,7 +25,7 @@ title: Tags
 </section>
 
 <section class="list" id="tags-list-data">
-  <h1 class="title">Tags</h1>
+  <h2 class="title">Tags</h2>
 
   {% assign tags_list = site.tags | sort %}
 
@@ -41,13 +43,15 @@ title: Tags
 </section>
 
 <section class="tag-list" id="tags-list-blog-ref-data">
+  <h2>Tags and blog posts</h2>
+
   {% assign tags_list = site.tags  | sort %}
   {% for tag in tags_list %}
-    <h2 class="title" id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h2>
+    <h3 class="title" id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h3>
 
     <ul class="list">
       {% assign pages_list = tag[1] %}
-      {% for post in pages_list reversed %}
+      {% for post in pages_list %}
         {% if post.title != null %}
           {% if group == null or group == post.group %}
             <li class="item">
