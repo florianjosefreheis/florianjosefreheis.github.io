@@ -25,7 +25,7 @@ React is well known at how bad rendering of extensive collections can end up. Th
 
 **Bad:**
 
-```react
+```jsx
 interface IMyComponentProps {
     presenter: MyPresenter;
 }
@@ -53,7 +53,7 @@ To be clear. It won't re-render the Todos. However, React has to calculate if it
 
 **Good:**
 
-```react
+```jsx
 interface IMyComponentProps {
   presenter: MyPresenter
 }
@@ -110,13 +110,13 @@ The common misconecption of MobX is that MobX tracks the values of an observable
 
 **Bad:**
 
-```react
+```jsx
 <DisplayTitle title={todo.title} />
 ```
 
 **Good:**
 
-```react
+```jsx
 <DisplayTitle todo={todo} />
 ```
 
@@ -124,7 +124,7 @@ Changes in the `title` property in the first example will trigger a re-render of
 
 Then, you may use the component like this:
 
-```react
+```jsx
 render() {
   const { todo } = this.props;
   return (
@@ -161,7 +161,7 @@ Arrow functions as well binding a function in the render method will always resu
 
 **Bad:**
 
-```react
+```jsx
 handleClick() {
   console.log('Hello world!')
 }
@@ -182,7 +182,7 @@ render() {
 
 **Good:**
 
-```react
+```jsx
 handleClick = () => {
   console.log('Hello world!')
 }
