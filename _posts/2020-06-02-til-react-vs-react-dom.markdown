@@ -8,6 +8,8 @@ tag:
     - react
     - react-dom
     - front-end
+    - Today I learned
+    - TIL
 category: blog
 author: flo
 description: "Today I Learned (TIL) - Why we need to import two packages (react/react-dom) to get started with React and what the main differences of them are."
