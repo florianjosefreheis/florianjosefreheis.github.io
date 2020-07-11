@@ -14,6 +14,7 @@ tag:
     - coding standards
     - code quality
     - cognitive load
+    - front-end
 category: blog
 author: flo
 description: Leveraging ESLint for your React project

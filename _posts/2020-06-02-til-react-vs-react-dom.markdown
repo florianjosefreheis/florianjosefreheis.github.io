@@ -8,7 +8,7 @@ tag:
     - react
     - react-dom
     - front-end
-    - Today I learned
+    - today I learned
     - TIL
 category: blog
 author: flo
