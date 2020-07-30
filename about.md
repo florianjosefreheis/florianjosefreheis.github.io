@@ -7,7 +7,7 @@ layout: page
 
 <div class='description'>
   <p>
-    I'm a Business Controller turned Software Engineer, combining my coding experience <strong>(4+ years)</strong> with my passions for Business Controlling <strong>(3+ years)</strong>, Digital Marketing <strong>(2+ years)</strong> and Entrepreneurship <strong>(2+ years)</strong>. My primary stack contains working with Ruby on Rails, ReactJS (Mobx/ICO), Go as well as AWS. I'm also a Hackathon and sports enthusiast.
+    I'm a product/UX-focused Business Controller turned Software Engineer, combining my coding experience <strong>(4+ years)</strong> with my passions for Business Controlling <strong>(3+ years)</strong>, Digital Marketing <strong>(2+ years)</strong> and Entrepreneurship <strong>(2+ years)</strong>. My primary stack contains working with Ruby on Rails, ReactJS (Mobx/ICO), Go as well as AWS. I'm also a Hackathon and sports enthusiast.
   </p>
   <p>
     Based in London, I'm currently working as a Software Engineer at Cutover.
