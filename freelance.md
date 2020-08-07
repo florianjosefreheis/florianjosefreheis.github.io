@@ -9,11 +9,13 @@ layout: page
 </p>
 
 <u>Work includes:<u>
+
 <ul>
-  <li>MVP softare development</li>
+  <li>MVP software development</li>
   <li>NoCode consulting</li>
   <li>Financial Controlling</li>
   <li>Business Plan creation</li>
+  <li>Business Coaching, focusing on strategy, finance and tech</li>
 </ul>
 
 <h4>Get in contact</h4>

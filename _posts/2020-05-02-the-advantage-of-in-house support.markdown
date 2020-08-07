@@ -1,5 +1,5 @@
 ---
-title: "The advantage of in-house support"
+title: "The Advantage of In-house Support"
 layout: post
 date: 2020-05-02 21:00
 headerImage: false
@@ -15,7 +15,7 @@ description: The advantage of in-house support
 
 ---
 
-## The advantage of in-house support
+## The Advantage of In-house Support
 
 Let's face reality. Support is often seen as a cost center, and an unpleasant service a business has to provide. Not many thoughts go into the chosen medium via the service is provided. However, support is critical to the day to day running of a business and for ensuring customer satisfaction. In general, we can distinguish between two primary support types:
 
