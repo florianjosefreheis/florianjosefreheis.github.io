@@ -15,8 +15,6 @@ description: Ruby snippets you can understand in 30 seconds or less.
 
 ---
 
-## 30 Seconds of Ruby
-
 Early February, while browsing the latest Product Hunt upvotes, I came across a very interesting looking project called [30 Seconds of Knowledge](https://www.producthunt.com/posts/30-seconds-of-knowledge).
 
 This browser extension provides you with a random code snippet from 6 available categories every time you open a new tab that you can read and understand in 30 seconds or less.

@@ -13,8 +13,6 @@ description: Welcome note of the personal blog of Florian Josef Reheis.
 ---
 ---
 
-## What will my blog posts be about?
-
 Welcome to the personal blog of Florian Josef Reheis. I hope to share interesting and helpful information about various areas, mainly Ruby on Rails for time to time.
 
 Drop me a line to discuss the latest trends over a coffee.

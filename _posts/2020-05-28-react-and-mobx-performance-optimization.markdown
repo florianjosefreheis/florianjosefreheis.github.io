@@ -15,8 +15,6 @@ description: "Best practices and quick wins when optimizing a React app that use
 
 ---
 
-## React and MobX: Performance Optimization
-
 Lately, I encountered some performance issues while working on a React application that uses MobX for state management. In the following, I will draw your attention to some quick wins as well as the best practices you should consider to achieve a sound performance baseline.
 
 ### List renders - use small, dedicated components and unique ids as key

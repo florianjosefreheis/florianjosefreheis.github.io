@@ -15,8 +15,6 @@ description: Setup process of my first blog by explaining the main tools/service
 ---
 ---
 
-## Setup Of My First Blog - Github Pages and CloudFlare
-
 As you might have recognized already, this website/blog is using a Jekyll template and is based on **github.pages.io**. The advantages of using Jekyll are:
 
 *   fast and easy setup

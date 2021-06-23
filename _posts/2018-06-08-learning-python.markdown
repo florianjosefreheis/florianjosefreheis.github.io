@@ -13,7 +13,6 @@ author: flo
 description: First interaction with the programming language Python
 ---
 ---
-## Learning Python
 
 At the Begin of May I decided to extend my programming language toolbox by learning Python. The [Coursera Python Specialization](https://www.coursera.org/specializations/python) by University of Michigan made a great first impression to learn the basics of Python.
 
