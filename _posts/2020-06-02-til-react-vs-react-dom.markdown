@@ -17,8 +17,6 @@ description: "Today I Learned (TIL) - Why we need to import two packages (react/
 
 ---
 
-## TIL - React vs ReactDOM
-
 Have you ever wondered why we need to import two packages to get started with React? The reason is that the library to create your user interface components and elements is separate from the implementation itself. So what does that mean?
 
 ### React

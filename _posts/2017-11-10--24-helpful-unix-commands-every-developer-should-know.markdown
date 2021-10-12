@@ -18,8 +18,6 @@ description: 24 Helpful UNIX Commands Every Developer Should Know.
 ---
 ---
 
-## Essential UNIX Commands
-
 Learning the basic Unix commands is as a very useful skill in the daily life of a Developer. Being confident to use the command line as a tool to deploy, maintain and debug applications is a big chance to dive into the mystic area of DevOps.
 
 In UNIX, **everting is a file**. And every file has a manual that describes it. The **man** command allows you to retrieve the information in the manual and display it as text output on your screen. Using the man command on itself, will give you the manual of the man command.

@@ -22,8 +22,6 @@ description: Leveraging ESLint for your React project
 
 ---
 
-## Leveraging ESLint for your React project
-
 JavaScript is a dynamic and flexible language. However, one trade-off is that this freedom allows syntax errors, problematic patterns, and wrong set variables (like global variables) to slip into your code without realizing it. All of this happens because you need to run the code, whereas compiled languages will give you immediate feedback.
 
 Wikipedia gives us a hint where linting originated from:
