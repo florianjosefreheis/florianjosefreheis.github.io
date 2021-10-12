@@ -1,6 +1,6 @@
 # Readme
 
-Travis CI/CD Status: [![Build Status](https://travis-ci.com/florianjosefreheis/florianjosefreheis.github.io.svg?branch=master)](https://travis-ci.com/florianjosefreheis/florianjosefreheis.github.io)
+CircleCi Status: [![Flo](https://circleci.com/gh/Flo/florianjosefreheis.github.io.svg?style=svg)](https://app.circleci.com/pipelines/github/florianjosefreheis/florianjosefreheis.github.io)
 
 -   Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
 -   Open it in your browser: [http://localhost:4000](http://localhost:4000)
