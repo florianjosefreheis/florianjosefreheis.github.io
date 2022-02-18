@@ -7,10 +7,10 @@ layout: page
 
 <div class='description'>
   <p>
-    I'm a product/UX-focused Business Controller turned Senior Software Engineer, combining my coding experience <strong>(5+ years)</strong> with my passions for Business Controlling <strong>(3+ years)</strong>, Digital Marketing <strong>(2+ years)</strong> and Entrepreneurship <strong>(2+ years)</strong>. My primary stack contains working with Ruby on Rails, ReactJS (Mobx/ICO), Go as well as AWS. I'm also a Hackathon and sports enthusiast.
+    I'm a product/UX-focused Business Controller turned Engineering Lead Software Engineer, combining my coding experience <strong>(5+ years)</strong> with my passions for Business Controlling <strong>(3+ years)</strong>, Digital Marketing <strong>(2+ years)</strong> and Entrepreneurship <strong>(2+ years)</strong>. My primary stack contains working with Ruby on Rails, ReactJS (Mobx/ICO), Go as well as AWS. I'm also a Hackathon and sports enthusiast.
   </p>
   <p>
-    Based in London, I'm currently working as a Senior Software Engineer at Cutover.
+    Based in London, I'm currently working as a Engineering Lead Software Engineer at Cutover.
   </p>
   <p>
     Before London, I was exploring various parts around the world, besides completing multiple economic and technical courses as well as gaining financial and controlling experiences as a Business Controller at Swarovski.
