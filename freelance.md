@@ -3,7 +3,7 @@ title: Freelance
 layout: page
 ---
 
-<h1>Starting a business?</h1>
+<h1 class='custom-title'>Starting a business?</h1>
 <p>
  Proof of concept (POC) and Minimum Valuable Product (MVP) development.
 </p>
@@ -21,5 +21,5 @@ layout: page
 <h4>Get in contact</h4>
 
 <p>
-  Get in contact via email <a class="link" href="mailto:{{ site.email }}">florianjosefreheis@gmail.com</a>.
+  Let's have a <a href='https://cal.com/florianjosefreheis/30min'>chat</a> over a coffee, or get in contact via  or <a href="https://www.linkedin.com/in/florianjosefreheis/">LinkedIn</a> or email <a class="link" href="mailto:{{ site.email }}">florianjosefreheis@gmail.com</a>.
 </p>

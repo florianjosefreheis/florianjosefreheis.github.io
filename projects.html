@@ -9,7 +9,7 @@ title: Projects
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                   <div style="display: inline-block; width: 50%; vertical-align: top;">
                     <h3 class="title">{{ post.title }}</h3>
-                    <p style="margin:0"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></p>
+                    <p style="margin:0"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
                     <p style="margin:0">{{ post.description }}</p>
                   </div>
                   <div style="display: inline-block; width: 48%">
