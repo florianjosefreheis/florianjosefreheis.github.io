@@ -1,50 +1,50 @@
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
-  <ul class="list animated">
-    {% if page.title != "Home" %}
+<nav class="nav">
+  <ul class="list">
+    <!-- {% if page.title != "Home" %}
       <li class="item">
         <a class="link" href="{{ site.url }}/">Home</a>
       </li>
-    {% endif %}
+    {% endif %} -->
 
-    {% if site.blog == true %}
-      {% if page.title != "Blog" %}
+    <!-- {% if site.blog == true %}
+      {% if page.title != "Blog" %} -->
         <li class="item">
           <a class="link" href="{{ site.url }}/blog">Blog</a>
         </li>
-      {% endif %}
-    {% endif %}
+      <!-- {% endif %}
+    {% endif %} -->
 
-    {% if site.projects == true %}
+    <!-- {% if site.projects == true %}
       {% if page.title != "Projects" %}
         <li class="item">
           <a class="link" href="{{ site.url }}/projects">Projects</a>
         </li>
       {% endif %}
-    {% endif %}
+    {% endif %} -->
 
-    {% if site.about == true %}
-      {% if page.title != "About" %}
-        <li class="item">
-          <a class="link" href="{{ site.url }}/about">About</a>
-        </li>
-      {% endif %}
-    {% endif %}
-
-    {% if site.freelance == true %}
-      {% if page.title != "Freelance" %}
+    <!-- {% if site.freelance == true %}
+      {% if page.title != "Freelance" %} -->
         <li class="item">
           <a class="link" href="{{ site.url }}/freelance">Freelance</a>
         </li>
-      {% endif %}
-    {% endif %}
+      <!-- {% endif %}
+    {% endif %} -->
 
-    {% if site.tags_page == true %}
-      {% if page.title != "Tags" and page.title != "Home"%}
+    <!-- {% if site.tags_page == true %}
+      {% if page.title != "Tags" and page.title != "Home"%} -->
         <li class="item">
           <a class="link" href="{{ site.url }}/tags">Tags</a>
         </li>
-      {% endif %}
-    {% endif %}
+      <!-- {% endif %}
+    {% endif %} -->
+
+    <!-- {% if site.about == true %}
+      {% if page.title != "About" %} -->
+        <li class="item">
+          <a class="link" href="{{ site.url }}/about">About</a>
+        </li>
+      <!-- {% endif %}
+    {% endif %} -->
 
     <!-- {% if site.resume == true %}
             <li class="item">

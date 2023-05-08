@@ -1,6 +1,6 @@
 # main text of home
 name: Florian Josef Reheis
-bio: Product/UX-focused Business Controller turned Engineering Lead with 6+ years of Software Engineering, 3+ years of Business Controlling and 2+ years of Digital Marketing experience
+bio: Product-minded Engineering Lead with 7+ years of Software Engineering and Leadership, 3+ years of Business Controlling and 2+ years of Digital Marketing experience.
 
 # twitter summary info
 description: A blog about technology and other amazing stuff
@@ -31,7 +31,7 @@ analytics-google: "UA-70987891-2"
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: florianjosefreheis # enter this from your disqus account
-  categories: [blog] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -63,7 +63,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
@@ -90,7 +90,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
