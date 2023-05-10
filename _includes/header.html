@@ -1,4 +1,6 @@
-<a class="logo" href="{{ site.url }}/">Florian Josef Reheis</a>
+<div>
+  <a class="logo" href="{{ site.url }}/">Florian Josef Reheis</a>
+</div>
 {% if page.title == "Home" or page.title == "Blog" or page.title == "Projects" %}
   {% assign showHeader = true %}
 {% endif %}
@@ -9,7 +11,7 @@
   {% if showOutline == true %}
     <h1 class="custom-title">All articles</h1>
   {% else %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
+    <header class="header-home">
       <!-- {% if site.about %}
       <a class="link" href="{{ site.url }}/about">
           <img

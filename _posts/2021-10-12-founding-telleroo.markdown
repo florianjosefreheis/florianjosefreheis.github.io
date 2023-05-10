@@ -7,7 +7,6 @@ projects: true
 tag:
     - open source
     - projects
-    - vscode extension
 category: blog
 author: flo
 description: Co-Founding a Payments Company in 2016
