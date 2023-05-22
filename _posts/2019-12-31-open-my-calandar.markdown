@@ -1,5 +1,5 @@
 ---
-title: "Open My Calandar"
+title: "Open My Calendar"
 layout: post
 date: 2019-12-31 22:00
 image: /assets/images/open_my_calendar/open-my-calendar.png
@@ -10,7 +10,7 @@ tag:
     - vscode extension
 category: blog
 author: flo
-description: VSCode Open My Calandar extension
+description: VSCode Open My Calendar extension
 ---
 
 ---
