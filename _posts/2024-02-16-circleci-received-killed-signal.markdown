@@ -1,5 +1,5 @@
 ---
-title: "CircleCi - Received killed signal"
+title: "CircleCI - Received killed signal"
 layout: post
 date: 2024-02-16 08:40
 tag:
@@ -8,12 +8,12 @@ tag:
     - linux
 category: blog
 author: flo
-description: Upgrading to Ruby 3.3.0 caused Gem GRPC 1.60 on CircleCi throw Received 'killed' signal as a result of running out of memory.
+description: Upgrading to Ruby 3.3.0 caused Gem GRPC 1.60 on CircleCI throw Received 'killed' signal as a result of running out of memory.
 ---
 
 ---
 
-I was recently upgrading our core platform from 3.2.2 to 3.3.0 and when running into an issue with the gem [GRPC](https://github.com/grpc/grpc/tree/master/src/ruby). The gem was causing the CircleCi build to fail with **Received "killed" signal** error.
+I was recently upgrading our core platform from 3.2.2 to 3.3.0 and when running into an issue with the gem [GRPC](https://github.com/grpc/grpc/tree/master/src/ruby). The gem was causing the CircleCI build to fail with **Received "killed" signal** error.
 
 ![received_kill_signal_circleci_error](/assets/images/circleci_received_killed_signal/received_killed_signal_circleci_error.png){:class="img-responsive" width="60%"}
 
@@ -25,13 +25,13 @@ Let's say you're running a CicleCi `medium` [resource class](https://circleci.co
 
 ## Solution
 
-The above mentioned PR introduced a new CircleCI configuration ENV `GRPC_RUBY_BUILD_PROCS` that allows overwriting the CPU allocation. Setting **`GRPC_RUBY_BUILD_PROCS: 4`** ensured that the number of processes spawned was limited to 4. One issue, one PR, and one CircleCi config later and the error was fixed.
+The above mentioned PR introduced a new CircleCI configuration ENV `GRPC_RUBY_BUILD_PROCS` that allows overwriting the CPU allocation. Setting **`GRPC_RUBY_BUILD_PROCS: 4`** ensured that the number of processes spawned was limited to 4. One issue, one PR, and one CircleCI config later and the error was fixed.
 
 I was wondering how we could debug this without googling. Let's have a look at the debugging process.
 
-## SSH into CircleCi
+## SSH into CircleCI
 
-We can jump on the box via CircleCi's [Rerun job with SSH](https://circleci.com/docs/ssh-access-jobs/) and run **`ps axfn`**.
+We can jump on the box via CircleCI's [Rerun job with SSH](https://circleci.com/docs/ssh-access-jobs/) and run **`ps axfn`**.
 
 ```circleci
 circleci@a64186f7a238:~$ ps axfn
@@ -51,7 +51,7 @@ circleci@a64186f7a238:~$ ps axfn
       7 pts/0    S+     0:00 /bin/sh
 ```
 
-Skimming through the output we can see that **`make`** is called with **`-j36`** via the file **`extconf.rb`**. It seems CircleCi machines provide 36 CPUs, as in reach for to use that will result in Ruby allowing the creation of 36 jobs. And all of them need memory. This can significantly increase memory overhead, as the total memory usage can be up to 36 times of a single process in this case.
+Skimming through the output we can see that **`make`** is called with **`-j36`** via the file **`extconf.rb`**. It seems CircleCI machines provide 36 CPUs, as in reach for to use that will result in Ruby allowing the creation of 36 jobs. And all of them need memory. This can significantly increase memory overhead, as the total memory usage can be up to 36 times of a single process in this case.
 
 The **`bundle install`** operation will likely run out of memory (OOM). Subsequently, the kernel will kill the process, resulting in the **Received "killed" signal** error.
 
@@ -83,9 +83,9 @@ Let's go to the [GRPC Ruby source](https://github.com/grpc/grpc/blob/master/src/
 
 ## Fixing the error
 
-Configuring the CircleCi config YAML file to set the **`GRPC_RUBY_BUILD_PROCS`** as an environment variable will limit the max spawned processes to avoid running out of memory.
+Configuring the CircleCI config YAML file to set the **`GRPC_RUBY_BUILD_PROCS`** as an environment variable will limit the max spawned processes to avoid running out of memory.
 
-Below is the final code snippet for the CircleCi config YAML file:
+Below is the final code snippet for the CircleCI config YAML file:
 
 ```yaml
 ...
