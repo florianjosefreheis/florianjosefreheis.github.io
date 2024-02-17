@@ -1,5 +1,6 @@
-<div>
+<div class="logo-and-nav">
   <a class="logo" href="{{ site.url }}/">Florian Josef Reheis</a>
+{% include nav.html %}
 </div>
 {% if page.title == "Home" or page.title == "Blog" or page.title == "Projects" %}
   {% assign showHeader = true %}
@@ -48,4 +49,3 @@
     {% include blog.html %}
   {% endif %}
 {% endif %}
-{% include nav.html %}

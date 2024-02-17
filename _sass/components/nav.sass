@@ -60,3 +60,33 @@
             &:hover
                 color: $alpha
                 text-decoration: underline
+
+.logo-and-nav
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+
+.nav, .nav-home 
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+
+.logo 
+    flex-shrink: 0
+
+@media (max-width: 768px)
+    .logo-and-nav 
+        flex-direction: column 
+
+    .logo 
+        position: relative
+        font-size: 2rem
+        margin-top: 0px
+
+    .nav, .nav-home 
+        width: 100%
+        justify-content: space-around
+    
+    .nav > .list > .item > .link, .nav-home > .list > .item > .link 
+        font-size: 2rem
