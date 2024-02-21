@@ -5,12 +5,12 @@ layout: page
 
 <h1 class='custom-title'>Let's build together</h1>
 <p>
-  Hands-on engineering experience for (Pre-)Seed and Series A startups to set up a product-minded engineering organization:
+  Hands-on engineering experience for Pre-/Seed and Series A startups to set up a product-minded engineering organization:
   <ul>
-    <li>Scaling teams from Pre-Seed to Series A stage</li>
-    <li>Creating an Engineering organization structure"</li>
-    <li>Improve hiring process </li>
-    <li>Establish career development framework</li>
+    <li>Developing and establishing an Engineering organization structure focused on operational excellence</li>
+    <li>Scaling engineering teams from the first hire to 50+</li>
+    <li>Define and establish hiring process</li>
+    <li>Define and establish a career development framework</li>
     <li>...</li>
   </ul>
 </p>
