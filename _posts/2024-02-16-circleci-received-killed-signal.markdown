@@ -29,7 +29,7 @@ The above mentioned PR introduced a new CircleCI configuration ENV `GRPC_RUBY_BU
 
 I was wondering how we could debug this without googling. Let's have a look at the debugging process.
 
-## SSH into CircleCI
+### SSH into CircleCI
 
 We can jump on the box via CircleCI's [Rerun job with SSH](https://circleci.com/docs/ssh-access-jobs/) and run **`ps axfn`**.
 
