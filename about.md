@@ -17,6 +17,6 @@ Want help with something? [Feel free to book a call.](https://cal.com/florianjos
     Before London, I was exploring various parts of the world, besides completing multiple economic and technical courses. I've worked as a Business Controller at <a href='https://swarovski.com'>Swarovski</a>, managing global IT budgets to support strategic decision-making to drive growth, ensure efficient resource allocation, and achieve organizational objectives.
   </p>
   <p>
-    Let's have a <a href='https://cal.com/florianjosefreheis/30min'>chat</a> over a coffee or digital.
+    Let's build together! I'm available for <a href='https://cal.com/florianjosefreheis/30min'>chats</a>.
   </p>
 <div>
