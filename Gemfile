@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '~> 3.1.4'
+ruby file: ".ruby-version"
 
 gem 'ffi'
 gem 'github-pages'

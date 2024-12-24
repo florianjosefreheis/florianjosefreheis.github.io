@@ -4,7 +4,7 @@ layout: page
 ---
 
 <h1 class='custom-title'>Florian Josef Reheis</h1>
-Want help with something? [Feel free to book a call.](https://cal.com/florianjosefreheis/30min)
+Do you need help with something? [Feel free to book a call.](https://cal.com/florianjosefreheis/30min)
 <hr>
 
 <div class='description'>
