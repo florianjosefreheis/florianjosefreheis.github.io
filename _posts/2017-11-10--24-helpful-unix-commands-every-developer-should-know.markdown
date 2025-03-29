@@ -281,4 +281,4 @@ Lets combine some unix commands to get a list of all used commands sorted by the
 
 ## Takeaway
 
-Most of the above UNIX commands come with a variation of options. To master UNIX commands is a very important skill in the daily life of a Developer. o simplify shipping, debugging and maintaining your applications wandering in application infrastructures.
+Most of the above UNIX commands come with a variation of options. Mastering UNIX commands is very important in the daily life of a developer to simplify shipping, debugging and maintaining your applications wandering in application infrastructures.

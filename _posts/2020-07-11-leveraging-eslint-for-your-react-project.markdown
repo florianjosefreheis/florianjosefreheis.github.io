@@ -1,5 +1,5 @@
 ---
-title: "Leveraging ESLint for your React project"
+title: "Leveraging ESLint for Your React Project"
 layout: post
 date: 2020-07-11 10:14
 headerImage: false
@@ -17,7 +17,7 @@ tag:
     - front-end
 category: blog
 author: flo
-description: Leveraging ESLint for your React project
+description: Leveraging ESLint for Your React Project
 ---
 
 ---
@@ -90,7 +90,7 @@ One great advantage of adding this package to your codebase is that it reminds y
 
 Don't worry if your linter feels a bit overwhelmed after adding those plugins. In my experience, they contribute to a sound foundation of your codebase and your process. Every team needs to find its sweet spot as much linting, and too many active rules define limitations in the wrong place.
 
-Checkout the reference to the office docuemnation below for more details.
+Check out the reference to the official documentation below for more details.
 
 ### References
 

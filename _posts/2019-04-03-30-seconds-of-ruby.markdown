@@ -21,7 +21,7 @@ This browser extension provides you with a random code snippet from 6 available 
 
 That's great I thought, visited the website, added the extension to my browser and with the first new open tab I had the first snippet in front of me.
 
-First I was surprised that I could not find any Ruby support. Soon I realised This is a great opportunity to re-visit some of Ruby's core methods, learn about the latest syntax introductions of Ruby as well as to contribute to an amazing open source project. **30-Seconds-of-Ruby** was born.
+First I was surprised that I could not find any Ruby support. Soon I realized this is a great opportunity to re-visit some of Ruby's core methods, learn about the latest syntax introductions of Ruby as well as to contribute to an amazing open source project. **30-Seconds-of-Ruby** was born.
 
 ![30_seconds_of_ruby](/assets/images/30_seconds_of_ruby/30_seconds_of_ruby.png){:class="img-responsive"}
 

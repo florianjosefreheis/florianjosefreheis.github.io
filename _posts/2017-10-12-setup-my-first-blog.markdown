@@ -34,7 +34,7 @@ After installing the template and adding small tweaks, the website was up and ru
 
 After clicking on the DNS tab we can add a custom domain name to use CloudFlare DNS instead of your current ones. The import of all our existing configuration happens automatically.
 
-The **www** CNAME record alias should redirects to your GitHub pages URL. So we ensure that the DNS respond address of **www.florianjosefreheis.com** is always **florianjosefreheis.github.io**. I also set up two **A** records to the DNS servers of my domain host DNS servers.
+The **www** CNAME record alias should redirect to your GitHub pages URL. So we ensure that the DNS respond address of **www.florianjosefreheis.com** is always **florianjosefreheis.github.io**. I also set up two **A** records to the DNS servers of my domain host DNS servers.
 
 ![CloudFlare DNS Settings](/assets/images/setup_of_my_first_blog/cloudflare_dns_settings.png){:class="img-responsive"}
 
